@@ -45,4 +45,34 @@ header li a:hover{
 
 .overview-hero {
    clear: both;
+   background-color: #E2E8F0;
+}
+
+.overview-hero-image img{
+    width: 150px;
+    height: 150px;
+    padding: 40px;
+
+
+}
+
+.overview-hero .container{
+    display: flex;
+    
+}
+
+.overview-hero-text {
+    width: 650px;
+    margin: auto;
+    /* justify-content: center; */
+}
+
+.learn-about h2{
+    font-size: 24px;
+    color: #48BB78;
+    
+}
+
+.learn-about {
+    clear: both;
 }
