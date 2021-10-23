@@ -12,6 +12,10 @@ header{
 
 }
 
+a {
+    text-decoration: none;
+}
+
 header li a {
     color: #6b7280;
 }
@@ -134,4 +138,44 @@ header li a:hover{
     color: white;
 
 
+}
+
+
+.stories .container{
+    padding-top: 80px;
+}
+
+.container h2{
+    color: #5A67D8;
+}
+
+
+article{
+    display: flex;
+    padding: 20px;
+
+}
+
+.article-body{
+    width: 650px;
+    margin: auto;
+}
+
+.article-body h3{
+    width: 450px;
+}
+
+article img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+article  a{
+    color: #5A67D8;
+
+}
+
+.article-body h3{
+    font-size: 18px;
 }
