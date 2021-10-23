@@ -145,7 +145,7 @@ header li a:hover{
     padding-top: 80px;
 }
 
-.container h2{
+.stories h2{
     color: #5A67D8;
 }
 
@@ -178,4 +178,65 @@ article  a{
 
 .article-body h3{
     font-size: 18px;
+}
+
+.newsletter{
+    background-color:#48BB78 ;
+
+}
+
+.newsletter .container{
+    width: 650px;
+    margin: auto;
+    padding: 40px;
+    
+}
+
+.newsletter h3{
+    color: white;
+}
+
+.newsletter p{
+    color: white;
+    width: 500px;
+
+}
+
+
+form {
+ display: flex;   
+}
+
+.form-group{
+    padding: 5px;
+}
+input[type=email], select {
+    padding: 10px;
+    /* margin: 8px 0; */
+
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    /* box-sizing: border-box; */
+  }
+
+button[type=submit]{
+    background-color:#4A5568 ;
+    padding-top: 5px;
+    padding-right: 40px;
+    padding-bottom: 5px;
+    padding-left: 40px;
+
+    border-radius: 5px;
+    color: white;
+
+}
+
+
+footer  {
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    color:  white;
+    background-color: #4A5568;
+    
 }
