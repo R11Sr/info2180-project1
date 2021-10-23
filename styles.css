@@ -64,7 +64,7 @@ header li a:hover{
 .overview-hero-text {
     width: 650px;
     margin: auto;
-    /* justify-content: center; */
+
 }
 
 .learn-about h2{
@@ -97,4 +97,41 @@ header li a:hover{
 .card img{
     width: 150px;
     height: 150px;
+}
+
+.card  h3 {
+    color:#48BB78 ;
+    font-size: 21px;
+}
+
+.testing .container {
+    display: flex;
+
+}
+
+.testing {
+    background-color: #4A5568;
+
+}
+
+
+.testing-desciption {
+    color: white;
+    width: 650px;
+    margin: auto;
+    padding: 80px;
+    
+}
+.cta{
+    margin: auto;
+    justify-content: center;
+
+}
+.cta a{
+    background-color:#48BB78 ;
+    padding: 20px;
+    border-radius: 5px;
+    color: white;
+
+
 }
