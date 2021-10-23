@@ -76,3 +76,25 @@ header li a:hover{
 .learn-about {
     clear: both;
 }
+
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 1fr ;
+    column-gap: 20px;
+    padding: 10px;
+}
+.card{
+    grid-row: 1;
+    border: 2px solid;
+    border-color:#E2E8F0 ;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 2px 5px #b4b3b3;
+
+}
+.card img{
+    width: 150px;
+    height: 150px;
+}
