@@ -157,10 +157,10 @@ header li a:hover{
 article{
     display: flex;
     padding: 20px;
-
 }
 
 .article-body{
+    padding: 10px;
     width: 650px;
     margin: auto;
 }
@@ -224,7 +224,7 @@ input[type=email], select {
   }
 
 button[type=submit]{
-    background-color:#4A5568 ;
+    background-color:#5A67D8 ;
     padding-top: 5px;
     padding-right: 40px;
     padding-bottom: 5px;
