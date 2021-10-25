@@ -7,6 +7,7 @@ document.addEventListener("DOMContentLoaded", function(event){
     
     
     button.addEventListener("click", e =>{
+        e.preventDefault();
         let email = document.getElementById("email").value;
         let notification = document.getElementsByClassName("message")[0];
         if (email === "") {
