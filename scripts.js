@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function(event){
             notification.innerText = "Please enter your email address";     
         }
         else{
-            notification.innerText = `Thank you! Your email address ${email}`;     
+            notification.innerText = `Thank you! Your email address ${email}  has been added to our mailing list!`;     
 
         }
 
